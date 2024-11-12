@@ -1,58 +1,78 @@
-*{
-    padding: auto;
-    margin: auto;
-    margin-top: 5px;
-}.header {
-    display: block;
-    background-color: red
-}
-body{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-.job {
-    font-size: 48px; /* Larger size for "JobSearch" */
-    font-weight: bold;
-    color: white;
-}
-.SEC{
-    text-align: end;
-}
-.dot-com {
-    font-size: 24px; /* Smaller size for ".com" */
-    color: lightgray;
-}
-.head{
-    background-color:lightgray;
-    font-weight: bold;
-    margin: 10px;
-}
-.gab{
-    padding: 10px;
-}
-.star{
-    color: red;
-}
-.frist{
-    text-align: right;
-}
-.basic{
-    background-color: rgb(238, 228, 228);
-}
-table{
-    justify-content: center;
-}
-.top{
-    text-align: top;
-}
-.button{
-    text-align: center;
-    
-}
-#thr{
-    margin: 20px;
-    background-color: red;
-    font-size: large;
-}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 400px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            text-align: center;
+            color: #d00;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .container h2 {
+            font-size: 18px;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="radio"] {
+            margin-right: 5px;
+        }
+        .form-group input[type="file"] {
+            padding: 5px 0;
+        }
+        .form-group .radio-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .form-buttons button {
+            padding: 10px 20px;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        .form-buttons .reset {
+            background-color: #ccc;
+        }
+        .form-buttons .apply {
+            background-color: #d00;
+        }
